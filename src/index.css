@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Minimal floating animations for subtle background elements */
+@keyframes float-slow {
+	0% { transform: translateY(0); }
+	50% { transform: translateY(-6px); }
+	100% { transform: translateY(0); }
+}
+
+@keyframes drift-slower {
+	0% { transform: translate(0, 0) rotate(0deg); opacity: 0.4; }
+	50% { transform: translate(6px, -4px) rotate(2deg); opacity: 0.6; }
+	100% { transform: translate(0, 0) rotate(0deg); opacity: 0.4; }
+}
+
+.animate-float-slow {
+	animation: float-slow 6s ease-in-out infinite;
+}
+
+.animate-drift-slower {
+	animation: drift-slower 12s ease-in-out infinite;
+}

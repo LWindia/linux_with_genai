@@ -38,7 +38,7 @@ const Registration = () => {
 
   const handlePaymentClick = () => {
     // Replace this URL with your actual Razorpay payment link
-    const razorpayLink = 'https://your-razorpay-payment-link.com';
+    const razorpayLink = 'https://rzp.io/rzp/oJHubOK';
     window.open(razorpayLink, '_blank');
   };
 
@@ -127,7 +127,7 @@ const Registration = () => {
 
                 {/* Pricing */}
                 <div className="bg-gradient-to-r from-[#ffd100]/20 to-[#ffd100]/10 border border-[#ffd100]/30 rounded-xl p-6 mb-6">
-                  <div className="text-3xl font-bold text-white mb-2">₹599</div>
+                  <div className="text-3xl font-bold text-white mb-2">₹499</div>
                   <div className="text-gray-300">Plus applicable taxes</div>
                   <div className="text-sm text-gray-400 mt-2">3 Hours Intensive Workshop</div>
                 </div>

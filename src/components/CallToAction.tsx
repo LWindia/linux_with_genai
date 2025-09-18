@@ -64,7 +64,7 @@ const CallToAction = () => {
               { number: '3', label: 'Hours Only', icon: '⏱️' },
               { number: '100%', label: 'Hands-on', icon: '🛠️' },
               { number: 'Live', label: 'Interactive', icon: '🎯' },
-              { number: '₹599', label: 'Plus taxes', icon: '💳' }
+              { number: '₹499', label: 'Plus taxes', icon: '💳' }
             ].map((stat, index) => (
               <div key={index} className="text-center">
                 <div className="text-3xl mb-2">{stat.icon}</div>

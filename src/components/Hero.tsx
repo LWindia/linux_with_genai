@@ -79,7 +79,7 @@ const Hero = () => {
                 <span className="text-white/30">|</span>
                 <div className="flex items-center gap-2 text-white/90">
                   <Calendar className="w-5 h-5 lg:w-5 lg:h-5 text-[#ffd100]" />
-                  <span className="text-lg lg:text-lg">6th Sept, Sat</span>
+                  <span className="text-lg lg:text-lg">20th Sept, Sat</span>
                 </div>
                 <span className="text-white/30">|</span>
                 <div className="flex items-center gap-2 text-white/90">
